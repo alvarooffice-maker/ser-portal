@@ -193,7 +193,7 @@ function render(data){
   const inversorSub = proposta?.pot_inversor ? proposta.pot_inversor+'W' : null;
   const economia = proposta?.economia_mensal ? 'R$ '+Number(proposta.economia_mensal).toLocaleString('pt-BR') : '—';
 
-  const waLink = telefone ? ('https://wa.me/'+(telefone.length<=11?'55'+telefone:telefone)+'?text='+encodeURIComponent('Olá! Preciso de ajuda com meu projeto solar.')) : 'https://wa.me/5585999990000';
+  const waLink = 'https://wa.me/5591993560305?text='+encodeURIComponent('Olá! Preciso de ajuda com meu projeto solar.');
 
   const timelineHTML = steps.map((s,i)=>`
     <div class="step">
